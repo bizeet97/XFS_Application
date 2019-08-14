@@ -33,6 +33,7 @@ import java.util.List;
 
 
 @RestController
+@CrossOrigin(origins="http://ec2-52-66-245-186.ap-south-1.compute.amazonaws.com:4200")
 @RequestMapping("/api")
 public class XfsController {  
 	public static final String ACCOUNT_SID = "AC8f66f031fd4cc49c090d4a6f93731357";
