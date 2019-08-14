@@ -136,7 +136,7 @@ public class XfsController {
         // Build a filter for the MessageList
 		System.out.println("About to Call");
         List<NameValuePair> params = new ArrayList<NameValuePair>();
-        params.add(new BasicNameValuePair("Body", "Jenkins job called "+p.jobtitle+"available at "+p.bUrl+"with build number "+p.bNumber+"has been failed by "+p.l_commit));
+        params.add(new BasicNameValuePair("Body", "Jenkins job called "+p.jobtitle+" available at "+p.bUrl+" with build number "+p.bNumber+" has been failed by "+p.l_commit));
         params.add(new BasicNameValuePair("To", "+917978059987")); //Add real number here
         params.add(new BasicNameValuePair("From", TWILIO_NUMBER));
 
